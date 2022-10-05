@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  background-color: #ccc;
+  height: 100px;
+}
+
+.header__heading {
+  color: #fff;
+  font-size: 30px;
+  line-height: 100px;
+}
