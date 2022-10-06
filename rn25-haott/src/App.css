@@ -22,12 +22,6 @@
   padding-bottom: 20px;
 }
 
-@media (max-width: 576px) {
-  .content {
-    max-height: 500px;
-  }
-}
-
 /* End module css */
 
 * {
@@ -38,10 +32,6 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  /* height: 100px; */
 }
 
 .header__heading {
@@ -56,16 +46,6 @@ html {
   margin-bottom: 30px;
 }
 
-.content__heading {
-  /* padding-bottom: 20px; */
-
-}
-
-.content1 {
-  /* width: 25%; */
-
-}
-
 .content1__list {
   list-style: none;
   padding-top: 20px;
@@ -78,85 +58,18 @@ html {
   padding-bottom: 20px;
 }
 
-.content2 {
-  /* width: 50%; */
-}
-
-.content2__heading {
-  /* font-size: 30px; */
-  /* font-weight: 400; */
-}
-
-.content2__desc {
-  /* padding-bottom: 30px; */
-}
-
 .content2__img {
   width: 100%;
-  /* height: 540px; */
 }
 
 .content3 {
   background-color: #70c9f3;
-  /* height: 620px; */
 }
-
-.content3__name {
-  /* padding-bottom: 30px; */
-}
-
 
 .footer {
-  /* text-align: center; */
-  /* height: 100px; */
   line-height: 100px;
 }
 
       
 
 
-
-      /* <div className="text-white bg-ccc">
-      <h1 className="h-80 fs-30">The Pulpit Rock</h1>
-    </div>
-
-    <div className="row w-100">
-      <div className="col-12 col-md-3 bg-info p-20">
-        <p className="item">The Drive</p>
-        <p className="item">The Walk</p>
-        <p className="item">The Return</p>
-        <p className="item">The End</p>
-      </div>
-      <div className="col col-md-6 bg-danger w-50">
-        <h2>The Walk</h2>
-        <p>
-          The walk to the Pulpit Rock will take you approximately two hours,
-          give or take an hour depending on the weather conditions and your
-          physical shape.
-        </p>
-        <img className="w-100" src={img} alt="" />
-      </div>
-      <div className="col-12 col-md-3 bg-info">
-        <div>
-          <h2>What?</h2>
-          <p>
-            The Pulpit Rock is a part of a mountain that looks like a pulpit.
-          </p>
-        </div>
-        <div>
-          <h2>Where?</h2>
-          <p> The Pulpit Rock is in Norway.</p>
-        </div>
-        <div>
-          <h2>Price?</h2>
-          <p>The walk is free!</p>
-        </div>
-      </div>
-    </div>
-    <div className="text-white text-center bg-ccc">
-      <p className="h-80 mb-0">
-        This web page is a part of a demonstration of fluid web design made by
-        www.w3schools.com. Resize the browser window to see the content
-        response to the resizing.
-      </p>
-    </div>  */
