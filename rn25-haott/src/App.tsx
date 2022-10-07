@@ -11,7 +11,7 @@ function App() {
           <div className="header__heading text-white">The Pulpit Rock</div>
         </div>
         <div className="content row p-30">
-          <div className="content1 col-12 col-md-3">
+          <div className="content1 col-md-3">
             <ul className="content1__list">
               <li className="content1__item">The Drive</li>
               <li className="content1__item">The Walk</li>
@@ -26,9 +26,9 @@ function App() {
               give or take an hour depending on the weather conditions and your
               physical shape.
             </div>
-            <img className="content2__img h-75" src={img} alt="" />
+            <img className="content2__img" src={img} alt="" />
           </div>
-          <div className="content3 col-12 col-md-3 h-75">
+          <div className="content3 col-md-3 h-75">
             <div className="content3__name pb-30">
               <div className="content__heading ">What?</div>
               <div className="content3__desc">

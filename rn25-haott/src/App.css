@@ -21,7 +21,6 @@
   font-weight: 400;
   padding-bottom: 20px;
 }
-
 /* End module css */
 
 * {
@@ -42,7 +41,6 @@ html {
 
 .content {
   max-width: 100%;
-  height: 700px;
   margin-bottom: 30px;
 }
 
