@@ -1,0 +1,40 @@
+.container {
+  margin-top: 40px;
+  width: 260px;
+  height: 350px;
+}
+
+.list {
+  height: 100%;
+  opacity: 0.9;
+}
+
+.icon {
+  font-size: 60px;
+  padding: 30px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.desc {
+  padding-top: 120px;
+  padding-left: 30px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  font-size: 18px;
+  display: block;
+  padding-right: 5px;
+}
+
+.unit {
+  font-size: 18px;
+}

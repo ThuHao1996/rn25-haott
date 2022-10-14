@@ -1,0 +1,39 @@
+.content1 {
+  width: 300px;
+  height: 400px;
+  margin-top: -400px !important;
+}
+
+.img1 {
+  max-width: 250px;
+}
+
+.mg-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.mg-t {
+  margin-top: -30px !important;
+}
+
+.pl-30 {
+  padding-left: 30px !important;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.b-b {
+  border-bottom: 1px solid rgb(218, 216, 216);
+}
+
+.link:focus .icon {
+  color: yellow;
+  cursor: pointer;
+}

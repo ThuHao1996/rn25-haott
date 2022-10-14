@@ -1,0 +1,96 @@
+.container {
+  border: 1px solid #eee;
+  margin: 30px 20px;
+  width: 250px;
+}
+
+.item {
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  height: 130px;
+}
+
+.heading {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #333;
+  padding-top: 29px;
+}
+
+.total {
+  font-size: 40px;
+  font-weight: 300;
+  color: #6ed3eb;
+}
+
+.column {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  position: relative;
+}
+
+.column1 {
+  border: 1px solid #eee;
+  width: 15px;
+  height: 50px;
+}
+
+.name {
+  text-align: center;
+  font-size: 12px;
+  color: #5a5858;
+  padding-top: 60px;
+  padding-right: 15px;
+}
+
+.column__item1::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 17px;
+  background-color: red;
+  top: 47px;
+  left: 28px;
+}
+
+.column__item2::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  top: 49px;
+  left: 72px;
+}
+
+.column__item3::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 30px;
+  background-color: orange;
+  top: 35px;
+  left: 116px;
+}
+
+.column__item4::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 40px;
+  background-color: aqua;
+  top: 25px;
+  right: 73px;
+}
+
+.column__item5::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 35px;
+  background-color: rgb(184, 88, 51);
+  top: 30px;
+  right: 29px;
+}

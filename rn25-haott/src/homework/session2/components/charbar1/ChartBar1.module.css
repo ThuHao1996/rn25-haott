@@ -1,0 +1,37 @@
+.container {
+  background-color: #fff;
+  display: flex;
+  width: 500px;
+  padding: 10px;
+}
+
+.column__left {
+  min-width: 150px;
+  padding-right: 16px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.column__right {
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.item {
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+
+.item1 {
+  padding-left: 16px;
+  color: white;
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+}

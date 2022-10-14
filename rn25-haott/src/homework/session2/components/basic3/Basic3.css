@@ -1,0 +1,30 @@
+.content2 {
+  width: 400px;
+  height: 450px;
+  margin-top: -500px !important;
+}
+
+.img2 {
+  max-width: 365px;
+}
+
+.mg-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.p-20 {
+  padding: 20px !important;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}

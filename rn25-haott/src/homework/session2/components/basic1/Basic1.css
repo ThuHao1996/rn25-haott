@@ -1,0 +1,33 @@
+.app1 {
+  padding: 50px;
+}
+
+.content {
+  width: 400px;
+  height: 200px;
+}
+
+.img {
+  max-width: 160px;
+}
+
+.b-s {
+  border: 1px solid #ccc;
+}
+
+.mg-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.pl-8 {
+  padding-left: 8px;
+}
