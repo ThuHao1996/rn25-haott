@@ -5,16 +5,21 @@
   padding: 10px;
 }
 
-.column__left {
+.column1 {
   min-width: 150px;
   padding-right: 16px;
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px;
 }
 
-.column__right {
+.column2 {
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
+}
+
+.column3 {
+  height: 50px;
+  width: 257px;
 }
 
 .item {

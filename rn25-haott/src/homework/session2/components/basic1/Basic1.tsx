@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../image/basic1.jpg";
+import img from "./img/basic1.jpg";
 import "./Basic1.css";
 
 type Props = {};

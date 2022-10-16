@@ -1,0 +1,79 @@
+.container {
+  border: 1px solid #ccc;
+  margin: 20px;
+  flex: 1;
+  background-color: #fff !important;
+  box-shadow: 1px 0 2px 5px rgba(0 0 0 /10%);
+}
+
+.container:nth-child(1) {
+  background: url(./img/person1.jpeg) no-repeat top 20px center;
+  background-size: 230px 230px;
+}
+.container:nth-child(2) {
+  background: url(./img/person2.jpeg) no-repeat top 20px center;
+  background-size: 230px 230px;
+}
+.container:nth-child(3) {
+  background: url(./img/person3.jpeg) no-repeat top 20px center;
+  background-size: 230px 230px;
+}
+.container:nth-child(4) {
+  background: url(./img/person4.jpeg) no-repeat top 20px center;
+  background-size: 230px 230px;
+}
+
+.heading {
+  margin-top: 250px !important;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #4c4949;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.job {
+  text-align: center;
+  color: #a19d9d;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px dashed #ddd;
+  padding: 0 20px;
+}
+
+.item__name {
+  align-items: center;
+  display: flex;
+  color: rgb(94, 92, 92);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.text {
+  padding-left: 10px;
+}
+
+.text1 {
+  color: #8b8787;
+  font-size: 15px;
+}
+
+.desc {
+  margin: 20px;
+  padding-left: 15px;
+  color: #fff;
+  padding-top: 5px;
+}
+
+.desc__item {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 600;
+}

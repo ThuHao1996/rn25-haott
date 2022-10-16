@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./ChartColumn.module.css";
-import "./ChartColumn.css";
 
 type Props = {
   text?: string;

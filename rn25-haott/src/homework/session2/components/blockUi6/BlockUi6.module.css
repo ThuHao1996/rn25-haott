@@ -1,0 +1,71 @@
+.container {
+  border: 1px solid #ccc;
+  margin: 10px;
+  text-align: center;
+}
+
+.container:nth-child(1) {
+  background: url(./img/blockUi6.1.jpg) no-repeat top 20px center;
+  background-size: 200px 250px;
+}
+
+.container:nth-child(2) {
+  background: url(./img/blockUi6.2.jpg) no-repeat top 20px center;
+  background-size: 200px 250px;
+}
+
+.container:nth-child(3) {
+  background: url(./img/blockUi6.3.jpg) no-repeat top 20px center;
+  background-size: 200px 250px;
+}
+
+.container:nth-child(4) {
+  background: url(./img/blockUi6.4.jpg) no-repeat top 20px center;
+  background-size: 200px 250px;
+}
+
+.name {
+  margin-top: 300px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text {
+  font-size: 15px;
+  color: #4e4a4a;
+  margin: 22px 0;
+}
+
+.size {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.price__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.price1 {
+  text-decoration: line-through;
+  padding-left: 7px;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.btn {
+  display: flex;
+  margin: 7px 74px;
+  color: #fff;
+  background-color: green;
+  border-radius: 3px;
+  border: none;
+  padding: 7px;
+  align-items: center;
+}

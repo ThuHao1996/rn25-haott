@@ -22,7 +22,6 @@ function Profile(props: Props) {
         </div>
         <div className={styles.item}>
           <div
-            className={styles.item1}
             style={{ backgroundColor: props.bgColor1, width: props.widthColor }}
           ></div>
           <div
