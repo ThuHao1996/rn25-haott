@@ -1,7 +1,7 @@
 .content1 {
   width: 300px;
   height: 400px;
-  margin-top: -400px !important;
+  margin-top: -650px !important;
 }
 
 .img1 {
@@ -36,4 +36,15 @@
 .link:focus .icon {
   color: yellow;
   cursor: pointer;
+}
+
+.icon {
+  font-size: 18px;
+  background-color: #fff;
+  width: 15px;
+  text-align: center;
+  margin-left: 3px;
+  height: 51px;
+  line-height: 51px;
+  border-radius: 8px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Resume1.module.css";
+import img from "./img/image.webp";
 
 type Props = {
   name?: string;
@@ -39,7 +40,7 @@ function Resume1(props: Props) {
         <div className={styles.header}></div>
         <div className={styles.content}>
           <div className={styles.content1}>
-            <img className={styles.img} src={props.img} alt="" />
+            <img className={styles.img} src={img} alt="" />
             <div className={styles.content1__list}>
               <div className={styles.content1__item}>
                 <div className={styles.text}>{props.text}</div>

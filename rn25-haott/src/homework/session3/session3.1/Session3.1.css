@@ -1,0 +1,26 @@
+.btn {
+  width: 120px;
+  background-color: #fff !important;
+  height: 70px;
+  font-size: 30px !important;
+  font-weight: 500;
+}
+
+.icon__name {
+  font-size: 54px;
+  background-color: #fff;
+  width: 120px;
+  text-align: center;
+  margin-left: 20px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 8px;
+}
+
+.icon1 {
+  color: #2196f3;
+}
+
+.icon2 {
+  color: #333;
+}

@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Session3 from "./homework/session3/session3.1/Session3.1";
+import Session5 from "./homework/session5/session5.1/Session5.1";
+// import Baitap2 from "./components/Baitap2";
 import styles from "./homework/session2/components/profile/Profile.module.css";
 import Basic1 from "./homework/session2/components/basic1/Basic1";
 import Basic2 from "./homework/session2/components/basic2/Basic2";
@@ -19,13 +22,14 @@ import img3 from "./homework/session2/components/blockUi7/img/blockui7.4.jpg";
 import img4 from "./homework/session2/components/blockUi7/img/blockui7.5.jpg";
 import img5 from "./homework/session2/components/blockUi7/img/blockui7.6.jpg";
 import Resume1 from "./homework/session2/components/resume1/Resume1";
-import img6 from "./homework/session2/components/resume1/img/image.webp";
-// import BtNumber from "./components/BtNumber";
+import Resume2 from "./homework/session2/components/resume2/Resume2";
+// import NumberFunctional from "./components/NumberFunctional";
+// import NumberClass from "./components/NumberClass";
 
 function App() {
   let appStyle = {
     backgroundColor: "#000",
-    minHeight: "800px",
+    minHeight: "1000px",
     paddingTop: "50px",
     justifyContent: "center",
     display: "flex",
@@ -37,7 +41,7 @@ function App() {
     display: "flex",
     backgroundColor: "#fff",
     justifyContent: "space-evenly",
-    marginTop: "-600px",
+    marginTop: "-2370px",
   };
 
   let main1Style = {
@@ -46,7 +50,7 @@ function App() {
     height: "300px",
     justifyContent: "space-around",
     display: "flex",
-    marginTop: "-600px",
+    marginTop: "-2680px",
   };
 
   let main2Style = {
@@ -54,7 +58,7 @@ function App() {
     width: "1200px",
     display: "flex",
     justifyContent: "space-evenly",
-    marginTop: "-800px",
+    marginTop: "-3220px",
     height: "770px",
   };
 
@@ -62,7 +66,7 @@ function App() {
     width: "1150px",
     height: "550px",
     backgroundColor: "#fff",
-    marginTop: "-600px",
+    marginTop: "-3310px",
     display: "flex",
     justifyContent: "space-around",
   };
@@ -71,14 +75,37 @@ function App() {
     width: "1650px",
     height: "580px",
     backgroundColor: "#fff",
-    marginTop: "-600px",
+    marginTop: "-3620px",
   };
 
   let main5Style = {
     backgroundColor: "#fff",
     width: "670px",
-    marginTop: "-600px",
+    marginTop: "-3900px",
     height: "1100px",
+  };
+
+  let main6Style = {
+    width: "1000px",
+    height: "1100px",
+    backgroundColor: "#f0d197",
+    marginTop: "-3700px",
+  };
+
+  let main7Style = {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#000",
+    marginTop: "-3410px",
+  };
+
+  let main8Style = {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#000",
+    paddingTop: "100px",
   };
 
   return (
@@ -96,7 +123,7 @@ function App() {
       <div className="app" style={appStyle}>
         <div
           className="main"
-          style={{ marginTop: -500, width: 500, height: 300 }}
+          style={{ marginTop: -1550, width: 500, height: 300 }}
         >
           <ChartBar1
             text={"Banwidth"}
@@ -527,11 +554,68 @@ function App() {
             text9={"WRITE YOUR EDUCATION HERE"}
             bgColor={"#527edd"}
             bgColor1={"#fff"}
-            img={img6}
           />
         </div>
       </div>
       {/* End Resume1 */}
+
+      {/* Resume2 */}
+      <div className="app" style={appStyle}>
+        <div className="main" style={main6Style}>
+          <Resume2
+            name={"KELLY WHITE"}
+            job={"ART DIRECTOR"}
+            text={"EDUCATION"}
+            time={"2010-2015"}
+            time1={"2010-2017"}
+            time2={"2015-2020"}
+            time3={"2018-2021"}
+            time4={"2020-2021"}
+            text1={"EXPERIENCE"}
+            text2={"LOREM IPSUM"}
+            desc={
+              "Porttitor amet massa Doner dolormolestie ium feliscon lore ipsum dolor tfringilla."
+            }
+            desc1={
+              "Porttitor amet massa lorem ipssDoner dolormolestie ium felisconon lorem su ipsum dolor tfingilla.Lorem ipsumr."
+            }
+            text3={"CONTACT ME"}
+            name1={"ADDRESS"}
+            name2={"WEB"}
+            name3={"PHONE"}
+            address={"123, Street Oclaho, New York City, USA"}
+            web={"contactme@email.com www.contactme.com"}
+            phone={"0123 0000 0000 1000 0123 0000 8000 0000"}
+            text4={"PRO SKILLS"}
+            text5={"ILLUSTRATOR"}
+            text6={"PHOTOSHOP"}
+            text7={"INDESIGN"}
+            text8={"MS WORD"}
+            icon1={"fa-solid fa-location-dot"}
+            icon2={"fa-solid fa-globe"}
+            icon3={"fa-solid fa-phone"}
+            icon4={"fa-brands fa-instagram"}
+            icon5={"fa-brands fa-twitter"}
+            icon6={"fa-sharp fa-solid fa-square-phone"}
+            bgColor={"#333"}
+            bgColor1={"#f39842"}
+            bgColor2={"#f09b34"}
+            widthColor1={130}
+            widthColor2={90}
+            widthColor3={100}
+            widthColor4={140}
+          />
+        </div>
+      </div>
+      {/* End Resume2 */}
+
+      <div className="main" style={main7Style}>
+        <Session3 />
+      </div>
+
+      <div className="main" style={main8Style}>
+        <Session5 />
+      </div>
     </>
   );
 }
