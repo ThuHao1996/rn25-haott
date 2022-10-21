@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Session3 from "./homework/session3/session3.1/Session3.1";
-import Session5 from "./homework/session5/session5.1/Session5.1";
-// import Baitap2 from "./components/Baitap2";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import RateButton2 from "./homework/session5/session5.2/ratebutton/RateButton2";
+import RateButton1 from "./homework/session3/session3.2/RateButton1";
+import LikeButton1 from "./homework/session3/session3.1/LikeButton1";
+import LikeButton2 from "./homework/session5/session5.1/LikeButton2";
 import styles from "./homework/session2/components/profile/Profile.module.css";
 import Basic1 from "./homework/session2/components/basic1/Basic1";
 import Basic2 from "./homework/session2/components/basic2/Basic2";
@@ -23,8 +25,12 @@ import img4 from "./homework/session2/components/blockUi7/img/blockui7.5.jpg";
 import img5 from "./homework/session2/components/blockUi7/img/blockui7.6.jpg";
 import Resume1 from "./homework/session2/components/resume1/Resume1";
 import Resume2 from "./homework/session2/components/resume2/Resume2";
+import Form3 from "./homework/session6/form3/Form3";
+import ImageViewer from "./homework/session5/session5.2/imageviewer/ImageViewer";
 // import NumberFunctional from "./components/NumberFunctional";
 // import NumberClass from "./components/NumberClass";
+// import Baitap2 from "./components/Baitap2";
+// import Form from "./components/Form";
 
 function App() {
   let appStyle = {
@@ -106,6 +112,13 @@ function App() {
     justifyContent: "center",
     backgroundColor: "#000",
     paddingTop: "100px",
+  };
+
+  let main9Style = {
+    backgroundColor: "#fff",
+    width: "1050px",
+    marginTop: "110px",
+    height: "670px",
   };
 
   return (
@@ -596,7 +609,7 @@ function App() {
             icon3={"fa-solid fa-phone"}
             icon4={"fa-brands fa-instagram"}
             icon5={"fa-brands fa-twitter"}
-            icon6={"fa-sharp fa-solid fa-square-phone"}
+            icon6={"fa-brands fa-whatsapp"}
             bgColor={"#333"}
             bgColor1={"#f39842"}
             bgColor2={"#f09b34"}
@@ -610,12 +623,44 @@ function App() {
       {/* End Resume2 */}
 
       <div className="main" style={main7Style}>
-        <Session3 />
+        <LikeButton1 />
       </div>
 
       <div className="main" style={main8Style}>
-        <Session5 />
+        <LikeButton2 />
       </div>
+      <div className="main" style={main8Style}>
+        <RateButton1 />
+      </div>
+
+      <div className="main" style={main8Style}>
+        <RateButton2 />
+      </div>
+      {/* Form3 */}
+      <div className="app" style={appStyle}>
+        <div className="main" style={main9Style}>
+          <Form3
+            name={"Set Your Partner"}
+            name4={"Recruitment on Auto-pilot"}
+            icon1={"fa-brands fa-magento"}
+            name1={"Grovia"}
+            name2={"Login"}
+            text={"Login to your account"}
+            text1={
+              "Thank you for get back to Grovia, lets access our the best recommendation contact for you."
+            }
+            text2={"Username"}
+            text4={"Password"}
+            icon2={"fa-solid fa-square-check"}
+            text5={"Remember me"}
+            text6={"Reset Password?"}
+            text7={"Don't have an account yet?"}
+            text8={"Join Grovia Now!"}
+          />
+        </div>
+      </div>
+      {/* End Form3 */}
+   <ImageViewer />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Session3.1.css";
+import "./LikeButton1.css";
 
 type Props = {};
 
@@ -7,7 +7,7 @@ type State = {
   isLike: boolean;
 };
 
-export class Baitap1 extends Component<Props, State> {
+export class LikeButton1 extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
@@ -38,4 +38,4 @@ export class Baitap1 extends Component<Props, State> {
   }
 }
 
-export default Baitap1;
+export default LikeButton1;

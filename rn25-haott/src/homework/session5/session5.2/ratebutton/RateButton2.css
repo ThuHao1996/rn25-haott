@@ -1,0 +1,11 @@
+.icon__list {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.icon1 {
+  font-size: 60px;
+  color: #2196f3;
+  margin: 50px 12px;
+}

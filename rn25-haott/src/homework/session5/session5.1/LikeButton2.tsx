@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./Session5.1.css";
+import "./LikeButton2.css";
 
 type Props = {};
 
-function Baitap1({}: Props) {
+function LikeButton2({}: Props) {
   const [isLike, setIsLike] = useState(false);
   const handleClick = () => {
     setIsLike(!isLike);
@@ -23,4 +23,4 @@ function Baitap1({}: Props) {
   );
 }
 
-export default Baitap1;
+export default LikeButton2;

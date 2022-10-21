@@ -33,7 +33,6 @@ if(input[i]%1===0 && input[i]%input[i]===0) {
 };
 
 
-
 // Bt: Mua xăng
 // N = 7
 // 1L : 3

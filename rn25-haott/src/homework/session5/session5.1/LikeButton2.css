@@ -3,7 +3,7 @@
   background-color: #fff !important;
   height: 70px;
   font-size: 30px !important;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .icon__name {
