@@ -12,13 +12,15 @@ function RateButton2({}: Props) {
         {arrStar?.map((index) => {
           return index <= star ? (
             <i
+              key={index}
               onClick={() => setStar(index)}
-              className="icon1 fa-solid fa-thumbs-up"
+              className="icon1 fa-solid fa-star"
             ></i>
           ) : (
             <i
+              key={index}
               onClick={() => setStar(index)}
-              className="icon1 fa-regular fa-thumbs-up"
+              className="icon1 fa-regular fa-star"
             ></i>
           );
         })}

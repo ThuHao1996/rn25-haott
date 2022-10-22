@@ -15,7 +15,7 @@ function LikeButton2({}: Props) {
         {isLike === true ? "Unlike" : "Like"}
       </button>
       {isLike === true ? (
-        <i className="icon__name icon1 fa-solid fa-thumbs-up"></i>
+        <i className="icon__name icon3 fa-solid fa-thumbs-up"></i>
       ) : (
         <i className="icon__name icon2 fa-regular fa-thumbs-up"></i>
       )}

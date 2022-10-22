@@ -5,9 +5,7 @@ import img1 from "./img/img2.webp";
 import img2 from "./img/img3.jpeg";
 import img3 from "./img/img4.webp";
 import img4 from "./img/img5.webp";
-import Form from "./Form3.name";
-import Form1 from "./Form3.password";
-import Form2 from "./Form3.sigin";
+import Form3Formik from "./Form3Formik";
 
 type Props = {
   name?: string;
@@ -17,11 +15,6 @@ type Props = {
   name2?: string;
   text?: string;
   text1?: string;
-  text2?: string;
-  text4?: string;
-  icon2?: string;
-  text5?: string;
-  text6?: string;
   text7?: string;
   text8?: string;
 };
@@ -70,19 +63,15 @@ function Form3(props: Props) {
             <div className={styles.text}>{props.text}</div>
             <div className={styles.desc}>{props.text1}</div>
             <div className={styles.form}>
-              <div className={styles.text1}>{props.text2}</div>
-              <Form />
+              <Form3Formik
+                text2={"Username"}
+                text4={"Password"}
+                icon2={"fa-solid fa-square-check"}
+                text5={"Remember me"}
+                text6={"Reset Password?"}
+                text9={"SIGN IN"}
+              />
             </div>
-            <div className={styles.form}>
-              <div className={styles.text1}>{props.text4}</div>
-              <Form1 />
-            </div>
-            <div className={styles.list}>
-              <p className={`${styles.icon2} ${props.icon2}`}></p>
-              <div className={styles.text2}>{props.text5}</div>
-              <div className={styles.text3}>{props.text6}</div>
-            </div>
-            <Form2 />
             <div className={styles.footer}>
               <div className={styles.text4}>{props.text7}</div>
               <div className={styles.text5}>{props.text8}</div>

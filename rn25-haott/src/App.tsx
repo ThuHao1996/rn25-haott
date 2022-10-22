@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import RateButton2 from "./homework/session5/session5.2/ratebutton/RateButton2";
 import RateButton1 from "./homework/session3/session3.2/RateButton1";
 import LikeButton1 from "./homework/session3/session3.1/LikeButton1";
@@ -26,7 +26,9 @@ import img5 from "./homework/session2/components/blockUi7/img/blockui7.6.jpg";
 import Resume1 from "./homework/session2/components/resume1/Resume1";
 import Resume2 from "./homework/session2/components/resume2/Resume2";
 import Form3 from "./homework/session6/form3/Form3";
+import Session7 from "./homework/session7/Session7";
 import ImageViewer from "./homework/session5/session5.2/imageviewer/ImageViewer";
+// import NetWorking from "./components/NetWorking";
 // import NumberFunctional from "./components/NumberFunctional";
 // import NumberClass from "./components/NumberClass";
 // import Baitap2 from "./components/Baitap2";
@@ -120,6 +122,14 @@ function App() {
     marginTop: "110px",
     height: "670px",
   };
+
+  let main10Style = {
+    backgroundColor: "#fff",
+    width: "850px",
+    height: "710px",
+    marginTop: "100px",
+
+  }
 
   return (
     <>
@@ -621,7 +631,7 @@ function App() {
         </div>
       </div>
       {/* End Resume2 */}
-
+      
       <div className="main" style={main7Style}>
         <LikeButton1 />
       </div>
@@ -636,6 +646,7 @@ function App() {
       <div className="main" style={main8Style}>
         <RateButton2 />
       </div>
+
       {/* Form3 */}
       <div className="app" style={appStyle}>
         <div className="main" style={main9Style}>
@@ -649,18 +660,40 @@ function App() {
             text1={
               "Thank you for get back to Grovia, lets access our the best recommendation contact for you."
             }
-            text2={"Username"}
-            text4={"Password"}
-            icon2={"fa-solid fa-square-check"}
-            text5={"Remember me"}
-            text6={"Reset Password?"}
             text7={"Don't have an account yet?"}
             text8={"Join Grovia Now!"}
           />
         </div>
       </div>
       {/* End Form3 */}
-   <ImageViewer />
+
+      <ImageViewer />
+
+      {/* <NetWorking /> */}
+
+<div className="app" style={appStyle}>
+  <div className="main" style={main10Style}>
+      <Session7 
+      text1={"Email"}
+      text2={"Password"}
+      text3={"......"}
+      text4={"Email Address is required"}
+      text5={"Address"}
+      text6={"1234 Main St"}
+      text7={"Address 2"}
+      text8={"Apartment, studio, or floor"}
+      name1={"City"}
+      name2={"District"}
+      name3={"Commune"}
+      name4={"Thành phố Hà Nội"}
+      name5={"Quận Ba Đình"}
+      name6={"Phường Phúc Xá"}
+      name7={"Check me out"}
+      name8={"Sign in"}
+      icon1={"fa-solid fa-chevron-down"}
+      />
+      </div>
+      </div>
     </>
   );
 }

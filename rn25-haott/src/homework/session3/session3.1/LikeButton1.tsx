@@ -29,7 +29,7 @@ export class LikeButton1 extends Component<Props, State> {
           {this.state.isLike ? "Unlike" : "Like"}
         </button>
         {this.state.isLike ? (
-          <i className="icon__name icon1 fa-solid fa-thumbs-up"></i>
+          <i className="icon__name icon3 fa-solid fa-thumbs-up"></i>
         ) : (
           <i className="icon__name icon2 fa-regular fa-thumbs-up"></i>
         )}

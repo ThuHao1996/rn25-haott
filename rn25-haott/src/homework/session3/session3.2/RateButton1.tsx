@@ -28,13 +28,15 @@ class RateButton1 extends Component<Props, State> {
             index = index + 1;
             return index <= this.state.star ? (
               <i
+                key={index}
                 onClick={this.handleClick}
-                className="icon1 fa-solid fa-thumbs-up"
+                className="icon1 fa-solid fa-star"
               ></i>
             ) : (
               <i
+                key={index}
                 onClick={this.handleClick}
-                className="icon1 fa-regular fa-thumbs-up"
+                className="icon1 fa-regular fa-star"
               ></i>
             );
           })}
