@@ -1,0 +1,28 @@
+.container {
+  background-color: #fff;
+  width: 400px;
+  height: 800px;
+}
+
+.table__list {
+  display: flex;
+}
+
+.table__list:first-child {
+  margin-top: 10px;
+}
+
+.table1 {
+  border: 1px solid #ccc;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.list1 {
+  width: 50px;
+}
+
+.list2 {
+  width: 322px;
+}
