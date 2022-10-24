@@ -1,0 +1,30 @@
+.main {
+  background-color: #fff;
+  height: 315px;
+  width: 1380px;
+}
+
+.header {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 300;
+}
+
+.tab1 {
+  display: flex;
+  justify-content: center;
+}
+
+.button1 {
+  padding: 15px 32px;
+  font-size: 25px;
+  border: none;
+}
+
+.desc {
+  width: 1000px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 30px;
+}

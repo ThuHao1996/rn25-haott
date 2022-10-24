@@ -18,7 +18,6 @@ type Props = {
   name6?: string;
   name7?: string;
   name8?: string;
-  icon1?: string;
 };
 
 function Session7(props: Props) {
@@ -63,24 +62,21 @@ function Session7(props: Props) {
         <div className={styles.content1}>
           <div className={styles.content__name}>
             <div className={styles.text1}>{props.name1}</div>
-            <div className={styles.list}>
-              <div className={styles.text2}>{props.name4}</div>
-              <div className={`${styles.icon1} ${props.icon1}`}></div>
-            </div>
+            <select className={styles.address}>
+              <option value="">{props.name4}</option>
+            </select>
           </div>
           <div className={styles.content__name}>
             <div className={styles.text1}>{props.name2}</div>
-            <div className={styles.list}>
-              <div className={styles.text2}>{props.name5}</div>
-              <div className={`${styles.icon1} ${props.icon1}`}></div>
-            </div>
+            <select className={styles.address}>
+              <option value="">{props.name5}</option>
+            </select>
           </div>
           <div className={styles.content__name}>
             <div className={styles.text1}>{props.name3}</div>
-            <div className={styles.list}>
-              <div className={styles.text2}>{props.name6}</div>
-              <div className={`${styles.icon1} ${props.icon1}`}></div>
-            </div>
+            <select className={styles.address}>
+              <option value="">{props.name6}</option>
+            </select>
           </div>
         </div>
         <div className={styles.content3}>

@@ -33,6 +33,11 @@
 
 .content1 {
   display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  margin-bottom: 30px;
 }
 
 .input2 {
@@ -43,28 +48,12 @@
   border: 2px solid #ccc;
 }
 
-.content__list {
-  margin: 35px 0;
-}
-
-.content__name {
-  margin-right: 46px;
-}
-
-.list {
-  display: flex;
-  width: 210px;
-  padding: 9px;
-  border: 2px solid #ccc;
-  font-size: 20px;
+.address {
+  font-size: 22px;
   border-radius: 6px;
-  justify-content: space-between;
-}
-
-.icon1 {
-  font-size: 19px;
-  color: #727171;
-  padding-top: 3px;
+  border: 2px solid #ccc;
+  padding: 8px 15px;
+  background-color: #fff;
 }
 
 .content3 {
