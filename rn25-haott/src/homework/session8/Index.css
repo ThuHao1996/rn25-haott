@@ -1,0 +1,16 @@
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+  background-color: green;
+  margin: 0;
+  padding: 0;
+}
+
+.link a {
+  text-decoration: none;
+  color: #000;
+  font-size: 35px;
+}

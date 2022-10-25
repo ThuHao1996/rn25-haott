@@ -59,8 +59,7 @@ function IconTab({}: Props) {
           {arrContent?.map((item: any, index: number) => {
             if (index === tab) {
               return <div className="desc1">{item.description}</div>;
-            } else {
-            }
+            } 
           })}
         </div>
       </div>

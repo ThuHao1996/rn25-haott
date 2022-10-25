@@ -10,6 +10,14 @@
   margin-left: 90px;
 }
 
+.tab3:hover .icon-name{
+  color: #000;
+}
+
+.tab3:hover .content-tab{
+  color: rgb(56, 55, 55);
+}
+
 .header-tab {
   font-size: 30px;
   text-align: center;

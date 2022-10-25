@@ -44,21 +44,29 @@ function NetWorking(props: Props) {
   };
   return (
     <>
-      <form onSubmit={formik.handleSubmit}>
-        <div>
-          <input
-            name="name"
-            value={formik.values.name}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-          />
-          <p>{formik.errors.name ?? null}</p>
-        </div>
-        <input type="submit" />
-      </form>
+      <div
+        className="form-list"
+        style={{
+          textAlign: "center",
+          backgroundColor: "#b2d7d5",
+          padding: "130px",
+        }}
+      >
+        <form onSubmit={formik.handleSubmit}>
+          <div>
+            <input
+              name="name"
+              value={formik.values.name}
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+            />
+            <p>{formik.errors.name ?? null}</p>
+          </div>
+          <input type="submit" />
+        </form>
+      </div>
     </>
   );
 }
 
 export default NetWorking;
-

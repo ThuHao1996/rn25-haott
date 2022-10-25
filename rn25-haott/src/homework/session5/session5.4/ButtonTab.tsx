@@ -55,8 +55,7 @@ function ButtonTab({}: Props) {
           {arrContent?.map((item: any, index: number) => {
             if (index === tab) {
               return <div className="desc">{item.description}</div>;
-            } else {
-            }
+            } 
           })}
         </div>
       </div>

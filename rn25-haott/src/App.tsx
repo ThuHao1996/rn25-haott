@@ -36,6 +36,7 @@ import IconTab from "./homework/session5/session5.5/IconTab";
 // import NumberClass from "./components/NumberClass";
 // import Baitap2 from "./components/Baitap2";
 // import Form from "./components/Form";
+import Index from "./homework/session8/Index";
 
 function App() {
   let appStyle = {
@@ -135,17 +136,18 @@ function App() {
 
   return (
     <>
-      <div className="app" style={appStyle}>
-        <Basic1 />
-      </div>
-      <div className="app" style={appStyle}>
-        <Basic2 />
-      </div>
-      <div className="app" style={appStyle}>
-        <Basic3 />
-      </div>
+      <Index />
+      {/* //   <div className="app" style={appStyle}>
+    //     <Basic1 />
+    //   </div>
+    //   <div className="app" style={appStyle}>
+    //     <Basic2 />
+    //   </div>
+    //   <div className="app" style={appStyle}>
+    //     <Basic3 />
+    //   </div> */}
       {/* ChartBar1  */}
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div
           className="main"
           style={{ marginTop: -1550, width: 500, height: 300 }}
@@ -207,11 +209,11 @@ function App() {
             setpercent={130}
           />
         </div>
-      </div>
+      </div> */}
       {/* End ChartBar1  */}
 
       {/*  Profile  */}
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div className={styles.main}>
           <Profile
             iconType={"ti-android"}
@@ -249,11 +251,11 @@ function App() {
             bgColor2={"#eee"}
           />
         </div>
-      </div>
+      </div> */}
       {/* End Profile */}
 
       {/* SocialBlock */}
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div className="main" style={mainStyle}>
           <SocialBlock
             text={"Facebook"}
@@ -288,22 +290,22 @@ function App() {
             unit={"Pins"}
           />
         </div>
-      </div>
+      </div> */}
       {/* End SocialBlock */}
 
       {/* ChartColumn */}
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div className="main" style={main1Style}>
           <ChartColumn text={"Today's visitors"} total={24599} />
           <ChartColumn text={"Yesterday's visitors"} total={15699} />
           <ChartColumn text={"Total dowloads"} total={124599} />
           <ChartColumn text={"Current income"} total={54599} />
         </div>
-      </div>
+      </div> */}
       {/* End ChartColumn */}
 
       {/* Person */}
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div className="main" style={main2Style}>
           <Person
             name={"Robort Pattison"}
@@ -402,11 +404,11 @@ function App() {
             bgColor2={"#e289db"}
           />
         </div>
-      </div>
+      </div> */}
       {/* End Person */}
 
       {/* BlockUi6 */}
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div className="main" style={main3Style}>
           <BlockUi6
             name={"EODEM MODO TYPI"}
@@ -442,11 +444,11 @@ function App() {
             text1={"Add to cart"}
           />
         </div>
-      </div>
+      </div> */}
       {/* End BlockUi6 */}
 
       {/* BlockUi7 */}
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div className="main" style={main4Style}>
           <BlockUi7
             name={"Deal of the day"}
@@ -542,11 +544,11 @@ function App() {
             img={img5}
           />
         </div>
-      </div>
+      </div> */}
       {/* End BlockUi7 */}
 
       {/* Resume1 */}
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div className="main" style={main5Style}>
           <Resume1
             name={"TONY"}
@@ -581,11 +583,11 @@ function App() {
             bgColor1={"#fff"}
           />
         </div>
-      </div>
+      </div> */}
       {/* End Resume1 */}
 
       {/* Resume2 */}
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div className="main" style={main6Style}>
           <Resume2
             name={"KELLY WHITE"}
@@ -631,10 +633,10 @@ function App() {
             widthColor4={140}
           />
         </div>
-      </div>
+      </div> */}
       {/* End Resume2 */}
 
-      <div className="main" style={main7Style}>
+      {/* <div className="main" style={main7Style}>
         <LikeButton1 />
       </div>
 
@@ -647,10 +649,10 @@ function App() {
 
       <div className="main" style={main8Style}>
         <RateButton2 />
-      </div>
+      </div> */}
 
       {/* Form3 */}
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div className="main" style={main9Style}>
           <Form3
             name={"Set Your Partner"}
@@ -666,14 +668,14 @@ function App() {
             text8={"Join Grovia Now!"}
           />
         </div>
-      </div>
+      </div> */}
       {/* End Form3 */}
 
-      <ImageViewer />
+      {/* <ImageViewer /> */}
 
       {/* <NetWorking /> */}
 
-      <div className="app" style={appStyle}>
+      {/* <div className="app" style={appStyle}>
         <div className="main" style={main10Style}>
           <Session7
             text1={"Email"}
@@ -706,8 +708,7 @@ function App() {
       <div className="app" style={appStyle}>
 
       <IconTab />
-      </div>
-
+      </div> */}
     </>
   );
 }
