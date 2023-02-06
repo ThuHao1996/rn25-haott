@@ -1,0 +1,91 @@
+.container__list {
+  display: flex;
+  width: 1200px;
+  height: 800px;
+  justify-content: space-evenly;
+  background-color: #faf8f8;
+  margin-top: -900px;
+}
+
+.content__list {
+  width: 260px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  flex: 1;
+  background-color: #fff !important;
+  box-shadow: 1px 0 2px 5px rgba(0 0 0 /10%);
+}
+
+.img {
+  min-width: 230px;
+  height: 230px;
+  margin: 10px 15px;
+}
+
+.info {
+  padding-bottom: 10px;
+}
+
+.heading {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #4c4949;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.job {
+  text-align: center;
+  color: #a19d9d;
+}
+
+.info-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px dashed #ddd;
+  padding: 0 20px;
+  height: 44px;
+}
+
+.content-info {
+  align-items: center;
+  display: flex;
+  color: rgb(94, 92, 92);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.text {
+  padding-left: 10px;
+  margin-top: 16px;
+}
+
+.text1 {
+  color: #8b8787;
+  font-size: 15px;
+  margin-top: 16px;
+}
+
+.contact {
+  margin: 20px;
+  padding-left: 15px;
+  color: #fff;
+  padding-top: 5px;
+  height: 84px;
+}
+
+.contact-name {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 8px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+}
+
+.number {
+  margin: 10px;
+}

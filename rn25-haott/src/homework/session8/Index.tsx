@@ -29,8 +29,17 @@ function index() {
         <Route
           path="*"
           element={
-            <main style={{ padding: "1rem" }}>
-              <p style={{ fontSize: "30px" }}>404 Page not found 😂😂😂</p>
+            <main>
+              <p
+                style={{
+                  fontSize: "30px",
+                  backgroundColor: "#b2d7d5",
+                  padding: "130px",
+                  textAlign: "center",
+                }}
+              >
+                404 Page not found 😂😂😂
+              </p>
             </main>
           }
         />
